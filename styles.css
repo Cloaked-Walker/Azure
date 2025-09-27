@@ -17,7 +17,7 @@
 
 /* universal */
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
@@ -31,13 +31,13 @@
     background: #fff;
 }
 
-.nav{
+.nav {
     position: relative;
     padding: 2px 0;
     display: flex;
 }
 
-.microsoft-logo{
+.microsoft-logo {
     margin: 1px;
     padding: 9px 4px 10px 4px;
     display: block;
@@ -46,11 +46,11 @@
     height: auto;
 }
 
-.microsoft-logo img{
+.microsoft-logo img {
     width: 108px;
 }
 
-.search-button{
+.search-button {
     left: 1px;
     padding: 16px 8px 8px 0px;
     margin-left: 2px;
@@ -62,7 +62,7 @@
     border: none;
 }
 
-.search-button::after{
+.search-button::after {
     white-space: nowrap;
     line-height: 18px;
     font-family: mwfm;
@@ -74,7 +74,7 @@
     position: relative;
 }
 
-.azure-b{
+.azure-b {
     left: 0;
     background: #fff;
     border-bottom: 1px solid #e6e6e6;
@@ -85,7 +85,7 @@
     top: 54px;
 }
 
-.azure-button{
+.azure-button {
     background-color: transparent;
     border: 0;
     color: #000;
@@ -99,7 +99,7 @@
     font-family: latest;
 }
 
-.azure-button::after{
+.azure-button::after {
     font-family: mwfm;
     content: "";
     font-size: 12px;
@@ -111,40 +111,40 @@
 
 /* body */
 
-.top-section{
+.top-section {
     padding-bottom: 85px;
     background-color: #f4fafd;
 }
 
 /* banner */
 
-.banner{
+.banner {
     overflow: hidden;
     max-height: 100%;
     display: block;
     background-color: #f4fafd;
 }
 
-.banner-img{
+.banner-img {
     object-fit: cover;
     height: 100%;
     width: 100%;
 }
 
-.container-first{
+.container-first {
     /* width: 100%; */
     padding-inline: 16px;
     margin-inline: auto;
     background-color: #f4fafd;
 }
 
-.contain-row{
+.contain-row {
     display: flex;
     flex-wrap: wrap;
     margin-inline: -4px;
 }
 
-.contain-col{
+.contain-col {
     flex-grow: 1;
     flex-basis: 0;
     max-width: 100%;
@@ -153,25 +153,25 @@
     padding-inline: 4px;
 }
 
-.contain-sec{
+.contain-sec {
     margin-top: 27px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     column-gap: 12px;
     row-gap: 8px;
-    text-align: left;   
+    text-align: left;
 }
 
-.cfir-text{
+.cfir-text {
     display: block;
     margin-inline: 0px;
     padding-block: 0px;
 }
 
-.innovation-head{
+.innovation-head {
     margin-bottom: 12px;
-    color: #17253d; 
+    color: #17253d;
     font-family: latest;
     font-weight: 600;
     letter-spacing: 0.96px;
@@ -179,7 +179,7 @@
     font-size: 12px;
 }
 
-.cfir-text h1{
+.cfir-text h1 {
     font-weight: 500;
     font-size: 40px;
     letter-spacing: -1px;
@@ -189,7 +189,7 @@
     display: block;
 }
 
-.cfir-text p{
+.cfir-text p {
     font-weight: 400;
     font-family: latest;
     line-height: 24px;
@@ -200,17 +200,17 @@
     padding-right: 16px;
 }
 
-.cfir-text-bottom{
+.cfir-text-bottom {
     margin-top: 24px;
 }
 
-.cfir-button{
+.cfir-button {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.cfir-start{
+.cfir-start {
     white-space: normal;
     border: 2px solid transparent;
     padding: 12px;
@@ -218,9 +218,9 @@
     display: inline-block;
     line-height: 22px;
     background-color: #0078d4;
-} 
+}
 
-.cfir-start span{
+.cfir-start span {
     font-family: latest;
     line-height: 22px;
     color: #fff;
@@ -230,7 +230,7 @@
     text-align: center;
 }
 
-.cfir-explore{
+.cfir-explore {
     background-color: transparent;
     border: 2px solid #17253d;
     line-height: 22px;
@@ -240,7 +240,7 @@
     white-space: normal;
 }
 
-.cfir-explore span{
+.cfir-explore span {
     color: #004275;
     font-size: 15px;
     font-family: latest;
@@ -250,12 +250,12 @@
     line-height: 22px;
 }
 
-.cfir-img{
+.cfir-img {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 16px;
 }
 
-.cfir-img img{
+.cfir-img img {
     max-width: 100%;
     object-fit: fill;
     border-radius: 8px;
@@ -263,7 +263,7 @@
 
 /* body-section */
 
-.featured-main{
+.featured-main {
     align-items: center;
     /* display: flex !important; */
     height: 51px;
@@ -276,20 +276,20 @@
     flex-grow: 1;
 }
 
-.news-main{
+.news-main {
     margin: 4px;
     display: block;
     /* width: 100% !important; */
 }
 
-.news{
-    padding: 12px;
+.news {
+    padding: 12px 12px 12px 12px;
     gap: 8px;
     align-items: center;
     display: flex;
 }
 
-.news span{
+.news span {
     flex-grow: 1 !important;
     display: flex;
     flex-direction: column !important;
@@ -301,9 +301,9 @@
     font-weight: 600;
     line-height: 20px;
     letter-spacing: normal;
-} 
+}
 
-.blue-arrow::before{
+.blue-arrow::before {
     font-family: mwff;
     content: "";
     font-weight: 400;
@@ -312,20 +312,20 @@
     font-size: 16px;
 }
 
-.blue-line{
+.blue-line {
     height: 4px;
     width: 100%;
     background-color: #004275;
 }
 
-.ai-main{
+.ai-main {
     background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-AI-Powered-Assistant-Background-1600x320?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=320&qlt=100&fit=constrain);
     object-fit: cover;
     width: 100%;
     height: 100%;
 }
 
-.ai-assistant{
+.ai-assistant {
     /* background-color: linear-gradient(131deg, rgb(0, 50, 89) 0%, rgb(9, 31, 44) 50.25%, rgb(0, 66, 117) 100%); */
     padding-left: 4px;
     display: flex;
@@ -336,25 +336,26 @@
     align-items: normal;
 }
 
-.ai-ban{
-    background-image: linear-gradient(131deg, rgb(0, 50, 89) 0%, rgb(9, 31, 44) 50.25%, rgb(0, 66, 117) 100%);
-    padding-block: 24px;
+.ai-ban {
+    background-image: linear-gradient(rgb(0, 41, 72) 0%, rgb(0, 66, 117) 98.96%);
+    padding-block-start: 25px;
+    padding-block-end: 24px;
     line-height: 24px;
 }
 
-.ai-container{
+.ai-container {
     padding-inline: 16px;
     line-height: 24px;
     display: block;
 }
 
-.ai-layout{
+.ai-layout {
     display: flex;
     flex-direction: column;
     gap: 8px;
 }
 
-.ai-desc{
+.ai-desc {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -363,46 +364,47 @@
     opacity: 1;
 }
 
-.desc-sec{
+.desc-sec {
     display: flex;
     flex-direction: column;
     gap: 12px;
 }
 
-.desc-top{
+.desc-top {
     display: flex;
     flex-direction: row;
     gap: 12px;
 }
 
-.desc-img{
-    height: auto;
+.desc-img {
+    height: 50px;
     max-width: 100%;
     display: block;
+    margin-top: 4px;
 }
 
-.desc-img img{
+.desc-img img {
     height: 50px;
     max-width: 100%;
 }
 
-.desc-head{
+.desc-head {
     display: flex !important;
     gap: 4px !important;
     flex-direction: column;
 }
 
-.desc-head h2{
+.desc-head h2 {
     white-space: nowrap !important;
     font-size: 24px;
     font-weight: 400;
     letter-spacing: -0.24px;
-    line-height: 28px;  
+    line-height: 28px;
     color: #f4fafd;
     font-family: latest;
 }
 
-.desc-head span{
+.desc-head span {
     font-family: latest;
     color: #dceef8;
     font-size: 16px;
@@ -411,7 +413,7 @@
     line-height: 24px;
 }
 
-.desc-p{
+.desc-p {
     font-weight: 400;
     font-size: 12px;
     font-family: latest;
@@ -421,14 +423,14 @@
     letter-spacing: -0.36px;
 }
 
-.ai-search{
+.ai-search {
     justify-content: center;
     gap: 10px;
     display: flex;
     flex-direction: column;
 }
 
-.ai-bar{
+.ai-bar {
     position: relative;
     width: 100%;
     max-width: 656px;
@@ -442,33 +444,41 @@
     display: flex;
 }
 
-.search-ai{
+.search-ai {
     display: flex;
     align-items: center;
     width: 100%;
 }
 
-.search-ai input{
+.search-ai input {
     background-color: transparent;
     width: 100%;
     border: none;
-    padding-block: 24px;
+    padding-top: 26px;
+    padding-bottom: 23px;
     padding-inline-start: 12px;
     padding-inline-end: 60px;
     border-radius: 8px;
 }
 
-input::placeholder{
+input::placeholder {
     font-size: 16px;
+    font-family: latest;
 }
 
-.input-button{
-    padding: 14px;
+.input-button {
+    padding: 17px 14px 15px 14px;
     background-color: transparent;
     border: none;
 }
 
-.search-line{
+.input-button svg{
+    height: 23.9844px;
+    width: 23.9844px;
+    fill: #cbd8e2;
+}
+
+.search-line {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -477,3 +487,240 @@ input::placeholder{
     background-image: linear-gradient(90deg, rgb(10, 134, 196) 0.3%, rgb(113, 237, 232) 100%);
 }
 
+.ai-ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    list-style: none;
+}
+
+.ai-button {
+    padding: 8px 10px;
+    line-height: 20px;
+    width: auto;
+    font-weight: 400;
+    border-radius: 8px;
+    color: #f4fafd;
+    font-size: 14px;
+    letter-spacing: -0.28px;
+    background-color: transparent;
+    border: 1px solid #8dc8e8;
+    font-family: latest;
+}
+
+/* third-container */
+
+.third-container{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    position: relative;
+    background-color: #f4fafd;
+}
+
+.tri-bg{
+    background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-Featured-News-Background-1600x826?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=826&qlt=100&fit=constrain);
+    max-height: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.tri-container{
+    padding-inline: 16px;
+    padding-bottom: 1px;
+    margin-inline: auto;
+}
+
+.third-head{
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: -4px;
+}
+
+.tri-head{
+    padding-inline: 4px;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.tri-hcontent{
+    display: flex;
+    flex-direction: column;
+    /* gap: 12px; */
+    flex-wrap: wrap;
+}
+
+.tri-mhead{
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.96px;
+    line-height: 16px;
+    text-align: left;
+    font-family: latest;
+    color: #17253d;
+}
+
+.tri-hcontent h2{
+    font-size: 32px;
+    font-weight: 500;
+    letter-spacing: -0.8px;
+    line-height: 40px;
+    text-align: left;
+    font-family: latest;
+}
+
+.third-content{
+    margin-top: 32px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.third-con{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: normal;
+    padding-inline: 4px;
+}
+
+.tri-con{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.tri-sec{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 1px;
+    background-color: #fff;
+    border-radius: 16px;  
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+}
+
+.tsec-img{
+    padding-inline: 8px;
+    padding-top: 8px;
+    position: relative;
+}
+
+.tsec-img img{
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    aspect-ratio: 2.33333 / 1;
+}
+
+.tsec-content{
+    padding: 15px 16px 16px 16px;
+    justify-content: space-between;
+    position: relative;
+    display: fl ex;
+    flex: 1 1 auto;
+    min-width: 1px;
+    height: 100%;
+    flex-direction: column;
+}
+
+.tsec-mtext{
+    align-items: flex-start;
+    text-align: left;
+    display: flex !important;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.tsec-mtext h3{
+    font-family: latest;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: normal;
+    line-height: 24px;
+    color: #0e1726;
+}
+
+.tsec-mtext span{
+    font-size: 16px;
+    font-family: latest;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+    text-align: left;
+    color: #17253d;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+.tsec-bottom{
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    gap: normal;
+    justify-content: flex-start;
+}
+
+.tsec-bot{
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    text-align: left;
+}
+
+.right-barrow{
+    display: flex;
+    align-items: center;
+    border: 2px solid transparent;
+    justify-content: center;
+    border-radius: 8px;
+    background-color: #0078d4;
+    padding: 8px;
+}
+
+.right-barrow::before{
+    content: "";
+    font-family: mwff;
+    line-height: 15px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    letter-spacing: -0.3px;
+}
+
+.fabric-news{
+    line-height: 20px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: normal;
+    font-family: latest;
+    color: #004275;
+    padding-bottom: 2px;
+}  
+
+/* fourth-container */
+
+.fourth-container{
+    padding-top: 56px;
+    padding-bottom: 56px;
+    position: relative;
+    background-color: #f4fafd;
+    text-align: left;
+}
+
+.fourth{
+    padding-left: 16px;
+    padding-right: 16px;
+    width: 100%;
+    margin-inline: auto;
+}
+
+.fourth-head{
+    display: flex;
+    flex-wrap: wrap;
+    margin-inline: -4px;
+}
