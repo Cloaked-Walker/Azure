@@ -472,7 +472,7 @@ input::placeholder {
     border: none;
 }
 
-.input-button svg{
+.input-button svg {
     height: 23.9844px;
     width: 23.9844px;
     fill: #cbd8e2;
@@ -510,14 +510,14 @@ input::placeholder {
 
 /* third-container */
 
-.third-container{
+.third-container {
     padding-top: 56px;
     padding-bottom: 56px;
     position: relative;
     background-color: #f4fafd;
 }
 
-.tri-bg{
+.tri-bg {
     background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-Featured-News-Background-1600x826?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=826&qlt=100&fit=constrain);
     max-height: 100%;
     max-width: 100%;
@@ -525,19 +525,19 @@ input::placeholder {
     display: block;
 }
 
-.tri-container{
+.tri-container {
     padding-inline: 16px;
     padding-bottom: 1px;
     margin-inline: auto;
 }
 
-.third-head{
+.third-head {
     display: flex;
     flex-wrap: wrap;
     margin-inline: -4px;
 }
 
-.tri-head{
+.tri-head {
     padding-inline: 4px;
     flex-grow: 1;
     max-width: 100%;
@@ -545,14 +545,14 @@ input::placeholder {
     width: 100%;
 }
 
-.tri-hcontent{
+.tri-hcontent {
     display: flex;
     flex-direction: column;
     /* gap: 12px; */
     flex-wrap: wrap;
 }
 
-.tri-mhead{
+.tri-mhead {
     margin-bottom: 12px;
     font-size: 12px;
     font-weight: 600;
@@ -563,7 +563,7 @@ input::placeholder {
     color: #17253d;
 }
 
-.tri-hcontent h2{
+.tri-hcontent h2 {
     font-size: 32px;
     font-weight: 500;
     letter-spacing: -0.8px;
@@ -572,14 +572,14 @@ input::placeholder {
     font-family: latest;
 }
 
-.third-content{
+.third-content {
     margin-top: 32px;
     display: flex;
     flex-wrap: wrap;
     gap: 8px;
 }
 
-.third-con{
+.third-con {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -587,29 +587,29 @@ input::placeholder {
     padding-inline: 4px;
 }
 
-.tri-con{
+.tri-con {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
 }
 
-.tri-sec{
+.tri-sec {
     position: relative;
     display: flex;
     flex-direction: column;
     min-width: 1px;
     background-color: #fff;
-    border-radius: 16px;  
+    border-radius: 16px;
     box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
 }
 
-.tsec-img{
+.tsec-img {
     padding-inline: 8px;
     padding-top: 8px;
     position: relative;
 }
 
-.tsec-img img{
+.tsec-img img {
     object-fit: cover;
     max-width: 100%;
     height: auto;
@@ -617,7 +617,7 @@ input::placeholder {
     aspect-ratio: 2.33333 / 1;
 }
 
-.tsec-content{
+.tsec-content {
     padding: 15px 16px 16px 16px;
     justify-content: space-between;
     position: relative;
@@ -628,7 +628,7 @@ input::placeholder {
     flex-direction: column;
 }
 
-.tsec-mtext{
+.tsec-mtext {
     align-items: flex-start;
     text-align: left;
     display: flex !important;
@@ -636,7 +636,7 @@ input::placeholder {
     flex-direction: column;
 }
 
-.tsec-mtext h3{
+.tsec-mtext h3 {
     font-family: latest;
     font-weight: 600;
     font-size: 18px;
@@ -645,7 +645,7 @@ input::placeholder {
     color: #0e1726;
 }
 
-.tsec-mtext span{
+.tsec-mtext span {
     font-size: 16px;
     font-family: latest;
     font-weight: 400;
@@ -657,7 +657,7 @@ input::placeholder {
     overflow-wrap: break-word;
 }
 
-.tsec-bottom{
+.tsec-bottom {
     margin-top: 32px;
     display: flex;
     flex-direction: row;
@@ -665,14 +665,14 @@ input::placeholder {
     justify-content: flex-start;
 }
 
-.tsec-bot{
+.tsec-bot {
     display: inline-flex;
     align-items: center;
     gap: 8px;
     text-align: left;
 }
 
-.right-barrow{
+.right-barrow {
     display: flex;
     align-items: center;
     border: 2px solid transparent;
@@ -682,7 +682,7 @@ input::placeholder {
     padding: 8px;
 }
 
-.right-barrow::before{
+.right-barrow::before {
     content: "";
     font-family: mwff;
     line-height: 15px;
@@ -692,7 +692,7 @@ input::placeholder {
     letter-spacing: -0.3px;
 }
 
-.fabric-news{
+.fabric-news {
     line-height: 20px;
     font-size: 14px;
     font-weight: 600;
@@ -700,11 +700,11 @@ input::placeholder {
     font-family: latest;
     color: #004275;
     padding-bottom: 2px;
-}  
+}
 
 /* fourth-container */
 
-.fourth-container{
+.fourth-container {
     padding-top: 56px;
     padding-bottom: 56px;
     position: relative;
@@ -712,19 +712,20 @@ input::placeholder {
     text-align: left;
 }
 
-.fourth{
+.fourth {
     padding-left: 16px;
     padding-right: 16px;
     margin-inline: auto;
+    box-sizing: border-box;
 }
 
-.fourth-head{
+.fourth-head {
     display: flex;
     flex-wrap: wrap;
     margin-inline: -4px;
 }
 
-.f-head{
+.f-head {
     padding-left: 4px;
     padding-right: 4px;
     flex-grow: 1;
@@ -733,14 +734,14 @@ input::placeholder {
     width: 100%;
 }
 
-.fohead{
+.fohead {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
     flex-direction: column;
 }
 
-.solutions{
+.solutions {
     margin-bottom: 12px;
     font-family: latest;
     line-height: 16px;
@@ -750,7 +751,7 @@ input::placeholder {
     color: #17253d;
 }
 
-.fohead h2{
+.fohead h2 {
     font-family: latest;
     font-size: 32px;
     line-height: 40px;
@@ -758,14 +759,14 @@ input::placeholder {
     font-weight: 500;
 }
 
-.fourth-body{
+.fourth-body {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 32px;
 }
 
-.fourth-content{
+.fourth-content {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -775,31 +776,32 @@ input::placeholder {
     width: 100%;
 }
 
-.content-scroll{
+.content-scroll {
     width: 100%;
     position: relative;
     max-width: 100%;
 }
 
-.button-scroll{
+.button-scroll {
     overflow-x: scroll;
     overflow-y: hidden;
     scrollbar-width: none;
     display: block;
 }
 
-.b-scroll{
-    width: 712px;
+.b-scroll {
+    width: 728px;
 }
 
-.scroll-content{
+.scroll-content {
     justify-content: start;
     display: flex;
     flex-wrap: wrap;
     position: relative;
+    box-sizing: border-box;
 }
 
-.button-content{
+.button-content {
     text-align: center;
     background-color: rgba(0, 85, 151, 0.1);
     color: #004275;
@@ -808,9 +810,10 @@ input::placeholder {
     margin-right: 8px;
     border-radius: 200px;
     border: none;
+    box-sizing: border-box;
 }
 
-.b-content{
+.b-content {
     background-color: #005597;
     color: #fff;
     line-height: 24px;
@@ -818,9 +821,10 @@ input::placeholder {
     text-align: center;
     margin-right: 8px;
     border-radius: 200px;
+    box-sizing: border-box;
 }
 
-.button-text{
+.button-text {
     font-family: latest;
     font-size: 15px;
     font-weight: 600;
@@ -828,7 +832,7 @@ input::placeholder {
     line-height: 22px;
 }
 
-.scroll-arrow{
+.scroll-arrow {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -840,48 +844,51 @@ input::placeholder {
     width: 40px;
     height: 40px;
     background-color: #f4fafd;
+    box-sizing: border-box;
 }
 
-.scroll-arrow::after{
+.scroll-arrow::after {
     font-family: mwff;
     content: "";
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
     color: #004275;
+    box-sizing: border-box;
 }
 
 
-.fourth-mbody{
+.fourth-mbody {
     flex-grow: 1;
     max-width: 100%;
     padding-right: 4px;
     padding-left: 4px;
     position: relative;
     width: 100%;
+    box-sizing: border-box;
 }
 
-.fm-body{
+.fm-body {
     position: relative;
     margin-top: 32px;
     text-align: left;
 }
 
-.fourth-bcontent{
+.fourth-bcontent {
     display: flex;
     flex-direction: row;
     position: relative;
     width: 100%;
 }
 
-.fourth-first-sec{
+.fourth-first-sec {
     display: flex;
     flex-direction: column;
     border-bottom: 1px solid #bdc5d2;
     width: 100%;
 }
 
-.linux-azure{
+.linux-azure {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
@@ -893,25 +900,27 @@ input::placeholder {
     border: none;
 }
 
-.linux-azure::before{
-    font-family: mwfm;
+.linux-azure::before {
+    font-family: mwff;
     content: "";
     margin-top: auto;
     line-height: 25px;
     text-align: left;
     font-weight: 400;
     font-size: 16px;
+    transform: rotate(180deg);
 }
 
-.linux-azure h3{
+.linux-azure h3 {
     font-size: 18px;
     line-height: 24px;
     font-family: latest;
     text-align: left;
+    box-sizing: border-box;
     font-weight: 600;
 }
 
-.fourth-sec-content{
+.fourth-sec-content {
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -919,11 +928,168 @@ input::placeholder {
     text-align: left;
 }
 
-.fourth-sec-content p{
+.fourth-sec-content p {
     color: #17253d;
     font-size: 16px;
     font-family: latest;
     font-weight: 400;
     letter-spacing: -0.48px;
     line-height: 24px;
+}
+
+.learn-text {
+    margin-bottom: 24px;
+}
+
+.learn-more {
+    color: #004275;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: latest;
+    text-decoration: underline;
+    line-height: 20px;
+}
+
+.learn-img {
+    position: relative;
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+.learn-img img {
+    aspect-ratio: auto;
+    border-radius: 16px;
+    width: 100%;
+    object-fit: fill;
+    box-sizing: border-box;
+}
+
+.infrastructure {
+    box-sizing: border-box;
+    width: 100%;
+    border-bottom: 1px solid #bdc5d2;
+}
+
+.ai-infrastructure {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 8px;
+    padding-block: 24px;
+    align-items: center;
+    border: none;
+    width: 100%;
+    justify-content: space-between;
+    background-color: transparent;
+}
+
+.ai-infrastructure::before {
+    font-family: mwff;
+    content: "";
+    line-height: 25px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.ai-infrastructure h3 {
+    font-family: latest;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: normal;
+    color: #0e1726;
+    line-height: 24px;
+    text-align: left;
+}
+
+.fourth-bottom {
+    display: flex;
+    flex-direction: row;
+    gap: normal;
+    justify-content: flex-start;
+}
+
+.fourth-bottom {
+    display: inline-flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.fourth-blue {
+    padding: 8px;
+    white-space: normal;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
+    background-color: #0078d4;
+    height: 35px;
+    width: 34.7px;
+    justify-content: center;
+}
+
+.fourth-blue::before {
+    font-family: mwff;
+    content: "";
+    font-weight: 400;
+    line-height: 15px;
+    font-size: 15px;
+    color: white;
+}
+
+.view-all {
+    font-family: latest;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: 20px;
+    padding-bottom: 2px;
+    color: #004275;
+}
+
+/* fifth-container */
+
+.fifth-container {
+    padding-top: 56px;
+    padding-bottom: 56px;
+    position: relative;
+    background-color: #f4fafd;
+}
+
+.fifth-contain{
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-inline: auto;
+}
+
+.fifth-head{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -4px;
+    margin-left: -4px;
+}
+
+.fifth-main-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-top: 32px;
+}
+
+.fit-body{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: normal;
+    padding-left: 4px;
+    padding-right: 4px;
+    width: 100%;
+}
+
+.ft-body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
 }
