@@ -762,6 +762,7 @@ input::placeholder {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-top: 32px;
 }
 
 .fourth-content{
@@ -771,6 +772,158 @@ input::placeholder {
     align-items: normal;
     padding-left: 4px;
     padding-right: 4px;
+    width: 100%;
+}
+
+.content-scroll{
+    width: 100%;
+    position: relative;
+    max-width: 100%;
+}
+
+.button-scroll{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    display: block;
+}
+
+.b-scroll{
+    width: 712px;
+}
+
+.scroll-content{
+    justify-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.button-content{
+    text-align: center;
+    background-color: rgba(0, 85, 151, 0.1);
+    color: #004275;
+    line-height: 24px;
+    padding: 8px 16px 8px 16px;
+    margin-right: 8px;
+    border-radius: 200px;
+    border: none;
+}
+
+.b-content{
+    background-color: #005597;
+    color: #fff;
+    line-height: 24px;
+    padding: 8px 16px 8px 16px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 200px;
+}
+
+.button-text{
+    font-family: latest;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: -0.3px;
+    line-height: 22px;
+}
+
+.scroll-arrow{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -4px;
+    top: 0;
+    border: 2px solid #004275;
+    border-radius: 200px;
+    width: 40px;
+    height: 40px;
+    background-color: #f4fafd;
+}
+
+.scroll-arrow::after{
+    font-family: mwff;
+    content: "";
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #004275;
 }
 
 
+.fourth-mbody{
+    flex-grow: 1;
+    max-width: 100%;
+    padding-right: 4px;
+    padding-left: 4px;
+    position: relative;
+    width: 100%;
+}
+
+.fm-body{
+    position: relative;
+    margin-top: 32px;
+    text-align: left;
+}
+
+.fourth-bcontent{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+}
+
+.fourth-first-sec{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid #bdc5d2;
+    width: 100%;
+}
+
+.linux-azure{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    width: 100%;
+    gap: 8px;
+    padding-bottom: 24px;
+    align-items: center;
+    background-color: transparent;
+    border: none;
+}
+
+.linux-azure::before{
+    font-family: mwfm;
+    content: "";
+    margin-top: auto;
+    line-height: 25px;
+    text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.linux-azure h3{
+    font-size: 18px;
+    line-height: 24px;
+    font-family: latest;
+    text-align: left;
+    font-weight: 600;
+}
+
+.fourth-sec-content{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-bottom: 24px;
+    text-align: left;
+}
+
+.fourth-sec-content p{
+    color: #17253d;
+    font-size: 16px;
+    font-family: latest;
+    font-weight: 400;
+    letter-spacing: -0.48px;
+    line-height: 24px;
+}
