@@ -715,7 +715,6 @@ input::placeholder {
 .fourth{
     padding-left: 16px;
     padding-right: 16px;
-    width: 100%;
     margin-inline: auto;
 }
 
@@ -724,3 +723,54 @@ input::placeholder {
     flex-wrap: wrap;
     margin-inline: -4px;
 }
+
+.f-head{
+    padding-left: 4px;
+    padding-right: 4px;
+    flex-grow: 1;
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+}
+
+.fohead{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    flex-direction: column;
+}
+
+.solutions{
+    margin-bottom: 12px;
+    font-family: latest;
+    line-height: 16px;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.96;
+    color: #17253d;
+}
+
+.fohead h2{
+    font-family: latest;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.8px;
+    font-weight: 500;
+}
+
+.fourth-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.fourth-content{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: normal;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+
