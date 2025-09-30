@@ -217,6 +217,17 @@
   background-color: #0078d4;
 }
 
+.fifth-button{
+  white-space: normal;
+  border: 2px solid transparent;
+  padding: 12px;
+  border-radius: 8px;
+  display: inline-block;
+  line-height: 22px;
+  background-color: #0078d4;
+  width: 100%;
+}
+
 .cfir-start span {
   font-family: latest;
   line-height: 22px;
@@ -472,11 +483,9 @@ input::placeholder {
   left: 0;
   right: 0;
   height: 4px;
-  background-image: linear-gradient(
-    90deg,
-    rgb(10, 134, 196) 0.3%,
-    rgb(113, 237, 232) 100%
-  );
+  background-image: linear-gradient(90deg,
+      rgb(10, 134, 196) 0.3%,
+      rgb(113, 237, 232) 100%);
 }
 
 .ai-ul {
@@ -504,7 +513,7 @@ input::placeholder {
 
 .third-container {
   padding-top: 56px;
-  padding-bottom: 56px;
+  padding-bottom: 56px !important;
   position: relative;
   background-color: #f4fafd;
   background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-Featured-News-Background-1600x826?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=826&qlt=100&fit=constrain);
@@ -718,15 +727,6 @@ input::placeholder {
   width: 100%;
 }
 
-.ff-head{
-  padding-left: 4px;
-  padding-right: 6px;
-  flex-grow: 1;
-  max-width: 100%;
-  position: relative;
-  width: 100%;
-}
-
 .fohead {
   display: flex;
   flex-wrap: wrap;
@@ -741,7 +741,7 @@ input::placeholder {
   line-height: 16px;
   font-size: 12px;
   font-weight: 600;
-  letter-spacing: 0.96;
+  letter-spacing: 0.96px;
   color: #17253d;
 }
 
@@ -789,16 +789,8 @@ input::placeholder {
   flex-wrap: wrap;
   position: relative;
   box-sizing: border-box;
-  width: 728px;
-}
-
-.f-scroll{
-  justify-content: start;
-  display: flex;
-  flex-wrap: wrap;
-  position: relative;
-  box-sizing: border-box;
-  width: 755px;
+  width: 729px;
+  padding-left: 4px;
 }
 
 .button-content {
@@ -837,7 +829,7 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: -4px;
+  right: 0;
   top: 0;
   border: 2px solid #004275;
   border-radius: 200px;
@@ -937,7 +929,7 @@ input::placeholder {
 }
 
 .learn-text {
-  margin-bottom: 24px;
+  margin-bottom: 26px;
 }
 
 .learn-more {
@@ -971,6 +963,7 @@ input::placeholder {
   box-sizing: border-box;
   width: 100%;
   border-bottom: 1px solid #bdc5d2;
+  padding-inline: 4px;
 }
 
 .ai-infrastructure {
@@ -1008,6 +1001,7 @@ input::placeholder {
   flex-direction: row;
   gap: normal;
   justify-content: flex-start;
+  padding-inline: 4px;
 }
 
 .fourth-bottom {
@@ -1082,7 +1076,7 @@ input::placeholder {
   flex-direction: column;
   gap: 32px;
   align-items: normal;
-  padding-left: 4px;
+  /* padding-left: 4px; */
   padding-right: 4px;
   width: 100%;
 }
@@ -1090,5 +1084,163 @@ input::placeholder {
 .ft-body {
   display: flex;
   flex-direction: column;
+  box-sizing: border-box;
+}
+
+.fifth-body {
+  position: relative;
+  margin-top: 32px;
+  text-align: left;
+}
+
+.fifth-flex {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  gap: 12px;
+  background-color: #f4fafd;
+  padding-inline: 4px;
+}
+
+.fifth-image-body {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+  display: grid;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  grid-area: 1 / 1;
+  z-index: 1;
+  overflow: hidden;
+  background-color: #f4fafd;
+}
+
+.fifth-image-div{
+  object-fit: cover;
+  position: relative;
+  width: 100%;
+  border-radius: 16px;
+  max-width: 100%;
+  height: 100%;
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/54300-Products-And-Services-01-320x616?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=656&hei=1284&qlt=100&fit=constrain);
+}
+
+/* .fifth-image-div::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(244, 250, 253, 0) 0%, rgb(244, 250, 253) 100%);
+  z-index: 0;
+} */
+
+.fifth-img img{
+  /* height: 100%; */
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  box-sizing: border-box;
+}
+
+.fifth-img-content{
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+}
+
+.no-content{
+  height: 220px;
+  display: block;
+  box-sizing: border-box;
+}
+
+.fifth-img-text{
+  align-items: flex-start;
+  opacity: 1;
+  display: flex !important;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.fifth-img-text h3{
+  font-family: latest;
+  font-size: 24px;
+  font-weight: 500;
+  letter-spacing: -0.36px;
+  line-height: 32px;
+}
+
+.fifth-img-bot{
+  display: flex;
+  gap: 12px !important;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.fifth-img-bot span{
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
+  font-family: latest;
+  letter-spacing: -0.48px;
+}
+
+.fifth-contents{
+  padding-inline: 4px;
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100%;
+  gap: 12px;
+  box-sizing: border-box;
+}
+
+.fifth-content-main{
+  padding: 16px;
+  justify-content: space-between;
+  flex-direction: column;
+  position: relative;
+  display: flex;
+  min-width: 1px;
+  word-wrap: break-word;
+  background-clip: border-box;
+  height: 100%;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
+}
+
+.fcontent-head{
+  display: flex;
+  margin-bottom: auto;
+  align-items: flex-start;
+  text-align: left;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.content-img{
+  display: inline-flex;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  border-radius: 8px;
+  border: 1px solid #e6f2fb;
+  line-height: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.content-img img{
+  width: 100%;
+  height: 100%;
+  max-width: 24px;
+  max-height: 24px;
+  font-size: 24px;
+  object-fit: cover;
+  aspect-ratio: auto;
   box-sizing: border-box;
 }
