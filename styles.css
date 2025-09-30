@@ -718,11 +718,21 @@ input::placeholder {
   width: 100%;
 }
 
+.ff-head{
+  padding-left: 4px;
+  padding-right: 6px;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
 .fohead {
   display: flex;
   flex-wrap: wrap;
-  gap: 12px;
+  /* gap: 12px; */
   flex-direction: column;
+  box-sizing: border-box;
 }
 
 .solutions {
@@ -755,8 +765,8 @@ input::placeholder {
   flex-direction: column;
   gap: 32px;
   align-items: normal;
-  padding-left: 4px;
-  padding-right: 4px;
+  /* padding-left: 4px;
+  padding-right: 4px; */
   width: 100%;
 }
 
@@ -773,16 +783,22 @@ input::placeholder {
   display: block;
 }
 
-.b-scroll {
-  width: 728px;
-}
-
 .scroll-content {
   justify-content: start;
   display: flex;
   flex-wrap: wrap;
   position: relative;
   box-sizing: border-box;
+  width: 728px;
+}
+
+.f-scroll{
+  justify-content: start;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  box-sizing: border-box;
+  width: 755px;
 }
 
 .button-content {

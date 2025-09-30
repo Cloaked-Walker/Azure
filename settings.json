@@ -1,0 +1,17 @@
+{
+  // Turn off formatOnSave globally
+  "editor.formatOnSave": false,
+
+  // Enable trimming of trailing whitespace globally (optional)
+  "files.trimTrailingWhitespace": false,
+
+  // Enable it only for specific languages
+  "[html]": {
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": false
+  },
+  "[css]": {
+    "files.trimTrailingWhitespace": true,
+    "editor.formatOnSave": false
+  }
+}
