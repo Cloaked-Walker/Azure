@@ -1687,4 +1687,58 @@ input::placeholder {
   width: 100%;
   margin-inline: auto;
   box-sizing: border-box; 
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  flex-direction: column;
+}
+
+.eighth-heading h2{
+  font-family: latest;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+  color: #f4fafd;
+  text-align: center;
+}
+
+.eighth-body{
+  padding-inline: 16px;
+  margin-top: 16px;
+  font-family: latest;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  line-height: 24px;
+  color: #dceef8;
+  text-align: center;
+}
+
+.eighth-bottom{
+  margin-top: 24px;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.eighth-button{
+  white-space: normal;
+  border: 2px solid transparent;
+  padding: 12px;
+  border-radius: 8px;
+  background-color: #b3daf0;
+}
+
+.eighth-button span{
+  font-family: latest;
+  color: #0e1726;
+  padding-bottom: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 24px;
 }
