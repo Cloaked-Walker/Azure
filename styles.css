@@ -1443,6 +1443,12 @@ input::placeholder {
   text-align: center;
 }
 
+/* seventh-container */
+
+.seventh-container{
+  background-image: url(https://cdn-dynmedia-1.microsoft.com/is/image/microsoftcorp/120999-Resources-by-role-Background-1600x968?resMode=sharp2&op_usm=1.5,0.65,15,0&wid=1600&hei=1016&qlt=100&fit=constrain);
+}
+
 .seventh-main-container{
   position: relative;
   box-sizing: border-box;
@@ -1594,3 +1600,91 @@ input::placeholder {
   font-size: 18px; 
 }
 
+.seventh-main-body{
+  position: relative;
+  padding-top: 24px;
+  padding-bottom: 48px;
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-inline: 20px;
+}
+
+.seventh-body-head{
+  align-items: center;
+  text-align: center;
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+  padding-inline: 20px;
+}
+
+.optimize{
+  font-family: latest;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: -0.48px;
+  line-height: 24px;
+  text-align: center;
+  color: #17253d;
+}
+
+.seventh-img{
+  padding: 16px;
+  margin-top: 24px;
+  position: relative;
+  display: flex;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow:  rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 1.008px 2px 0px;
+  overflow: hidden;
+}
+
+.seventh-img img{
+  aspect-ratio: 1.77778;
+  border-radius: 8px;
+  object-fit: cover;
+  width: 100%;
+  overflow: hidden;
+}
+
+/* eighth-container */
+
+.eighth-main-container{
+  color: #dceef8;
+  padding-block: 56px;
+  position: relative;
+  background: #4a4a49;
+  text-align: left;
+  box-sizing: border-box;
+}
+
+.eighth-bg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  transform: unset;
+  max-height: 100%;
+  overflow: hidden;
+  display: block;
+  box-sizing: border-box;
+}
+
+.eighth-bg img{
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  aspect-ratio: auto;
+  box-sizing: border-box;
+}
+
+.eighth-main-body{
+  padding-inline: 16px;
+  width: 100%;
+  margin-inline: auto;
+  box-sizing: border-box; 
+}
