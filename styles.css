@@ -1430,7 +1430,7 @@ input::placeholder {
   line-height: 16px;
   font-size: 12px;
   font-weight: 600;
-  text-align: center;
+  text-align: left;
   letter-spacing: 0.96px;
 }
 
@@ -1741,4 +1741,66 @@ input::placeholder {
   font-weight: 600;
   letter-spacing: -0.3px;
   line-height: 24px;
+}
+
+/* ninth-container */
+
+.ninth-main-container{
+  padding-block: 56px;
+  position: relative;
+  background-color: #f4fafd;
+  text-align: left;
+  padding-inline: 16px;
+  width: 100%;
+  margin-inline: auto;
+  box-sizing: border-box;
+}
+
+.ninth-container-head{
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  flex-grow: 1;
+  padding-inline: 4px;
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.ninth-head-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.ninth-head-button{
+  white-space: normal;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 2px solid #17253d;
+  padding-block: 8px;
+  padding-inline: 12px;
+  border-radius: 8px;
+}
+
+.ninth-head-button span{
+  font-family: latest;
+  color: #004275;
+  padding-bottom: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  line-height: 24px;
+  text-align: center;
+}
+
+.ninth-container-body{
+  margin-top: 32px;
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  flex-direction: column;
+  gap: 32px;
+  align-items: normal;
 }
