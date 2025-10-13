@@ -2058,4 +2058,113 @@ input::placeholder {
   font-size: 18px; 
 }
 
+.tenth-main-container{
+  padding-block: 56px;
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+}
 
+.tenth-bg{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom:0;
+  left: 0;
+  transform: unset;
+  overflow: hidden;
+  display: block;
+  max-height: 100%;
+  box-sizing: border-box;
+}
+
+.tenth-bg img{
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  aspect-ratio: auto;
+}
+
+.tenth-container{
+  padding-inline: 24px;
+  position: relative;
+  margin-inline: auto;
+}
+
+.tenth-head h2{
+  font-family: latest;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 40px;
+  letter-spacing: -0.8px;
+  color: #0e1726;
+  text-align: center;
+}
+
+.tenth-main-content{
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: normal;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  opacity: 1;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.tenth-content{
+  border-radius: 16px;
+  box-shadow: 0 0 0.125rem rgba(0, 0, 0, 0.12),0 0.125rem 0.25rem rgba(0, 0, 0, 0.14);
+  background-color: #fefefe;
+  height: 100%;
+  position: relative;
+  padding: 16px; 
+  display: flex;
+  flex-direction: column;
+}
+
+.tenth-content-text{
+  align-items: flex-start;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  gap: 12px;
+}
+
+.tenth-text-head{
+  font-family: "Segoe UI Variable Display", "Segoe UI", latest, "Helvetica Neue", helvetica, arial, sans-serif;
+  font-size: 20px;                                 
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  line-height: 28px;
+  color: #0e1726;
+}
+
+.tenth-text-body{
+  font-family: latest;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;    
+  letter-spacing: -0.48px;
+  color: #0e1726;
+}
+
+.tenth-button{
+  margin-top: 32px;
+  display: inline-flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.eleventh-container{
+  background-color: #f7f7f7;
+  box-sizing: border-box;
+  padding-inline: 16px;
+  padding-bottom: 24px;
+  padding-top: 24px;
+  margin-inline: auto;  
+}
