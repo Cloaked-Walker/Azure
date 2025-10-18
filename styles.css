@@ -15,7 +15,7 @@
   src: url(/font/latest.woff2);
 }
 
-/* universal */
+/* universal */     
 
 * {
   margin: 0;
@@ -104,7 +104,7 @@
   content: "";
   font-size: 12px;
   font-weight: 700;
-  padding-left: 12px;
+  padding-left: 11.5px;
   position: relative;
   top: 2px;
 }
@@ -120,8 +120,8 @@
 
 .banner {
   overflow: hidden;
-  max-height: 100%;
-  display: block;
+  height: 100%;
+  position: absolute;
   background-color: #f4fafd;
 }
 
@@ -151,7 +151,7 @@
 }
 
 .contain-sec {
-  margin-top: 27px;
+  margin-top: 56px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -174,6 +174,7 @@
   letter-spacing: 0.96px;
   line-height: 16px;
   font-size: 12px;
+  margin-top: 4px;
 }
 
 .cfir-text h1 {
@@ -637,7 +638,7 @@ input::placeholder {
 }
 
 .tsec-content {
-  padding: 15px 16px 16px 16px;
+  padding: 16px 16px 16px 16px;
   justify-content: space-between;
   position: relative;
   display: flex;
@@ -812,8 +813,8 @@ input::placeholder {
   flex-wrap: wrap;
   position: relative;
   box-sizing: border-box;
-  width: 729px;
-  padding-left: 4px;
+  width: 800px;
+  padding-left: 46px;
 }
 
 .button-content {
@@ -844,7 +845,7 @@ input::placeholder {
   font-size: 15px;
   font-weight: 600;
   letter-spacing: -0.3px;
-  line-height: 22px;
+  line-height: 20px;
 }
 
 .scroll-arrow {
@@ -2235,4 +2236,120 @@ input::placeholder {
 .eleventh-app-list img{
   height: 25px;
   width: 24px;
+}
+
+/* footer */
+
+footer{
+  padding-bottom: 54px;
+  box-sizing: border-box;
+  background: #f2f2f2;
+}
+
+.footer-main-body{
+  padding-inline: 12px;
+  float: none;
+  background: #f2f2f2;
+}
+
+.footer-content{
+  padding-inline: 12px;
+  vertical-align: text-top;
+}
+
+.footer-heading{
+  padding-top: 34px;
+  padding-bottom: 4px;
+  font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  line-height: 20px;
+  font-weight: 600;
+  font-size: 15px;
+  letter-spacing: normal;
+  color: #616161;
+  text-align: left;
+  display: block;
+}
+
+.footer-content ul{
+  list-style: none;
+  text-align: left;
+}
+
+.footer-text{
+  padding-block: 8px;
+  font-size: 11px;
+  line-height: 16px;
+  font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #616161;
+  letter-spacing: normal;
+}  
+
+.footer-btext{
+  font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #616161;
+  letter-spacing: normal;
+  font-size: 11px;
+  line-height: 16px;
+}
+
+.footer-ctext{
+  font-family: 'Segoe UI', SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #616161;
+  letter-spacing: normal;
+  font-size: 11px;
+  line-height: 16px;
+  padding-top: 6px;
+  padding-right: 10px;
+  display: block;
+  float: left;
+}
+
+.footer-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px 24px 16px;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  max-width: calc(1600px +10%);
+  margin-inline: auto;
+} 
+
+.footer-lang{
+  padding-right: 24px;
+  white-space: nowrap;
+}
+
+.footer-lang::before{
+  content: "";
+  font-family: mwfm;
+  font-size: 20px;
+  line-height: 20px;
+  color: #616161;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.footer-privacy{
+  display: flex;
+  padding-right: 24px;
+  padding-top: 4px;
+  float: left;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  margin-left: -5px;
+}
+
+.footer-privacy svg{
+  padding-right: 4px;
+  height: 16px;
+  width: 43px;
+}
+
+.footer-bottom-list{
+  width: 100%;
+  text-align: left;
+  display: block;
+  margin-top: 12px;
+  margin-bottom: 6px;
+  white-space: wrap;
 }
