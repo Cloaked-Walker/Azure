@@ -50,6 +50,10 @@
   width: 108px;
 }
 
+.media-azure-head{
+  display: none;
+}
+
 .search-button {
   left: 1px;
   padding: 16px 8px 8px 0px;
@@ -317,7 +321,9 @@
   width: 100%;
   /* margin-inline: auto; */
   flex-grow: 1;
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 1;
 }
 
 .news-main {
@@ -1164,7 +1170,6 @@ input::placeholder {
   position: relative;
   width: 100%;
   grid-area: 1 / 1;
-  z-index: 1;
   overflow: hidden;
   background-color: #f4fafd;
   border-radius: 16px;
@@ -1401,7 +1406,6 @@ input::placeholder {
   width: 100%;
   margin-inline: auto;
   box-sizing: border-box;
-  z-index: 1;
 }
 
 .sixth-contain {
@@ -1538,7 +1542,6 @@ input::placeholder {
 
 .seventh-scroll-section {
   position: relative;
-  z-index: 1;
   padding-inline: 36px;
 }
 
@@ -1559,7 +1562,6 @@ input::placeholder {
   box-sizing: border-box;
   flex-wrap: nowrap;
   position: relative;
-  z-index: 0;
   justify-content: center;
 }
 
@@ -1567,7 +1569,6 @@ input::placeholder {
   border-bottom-left-radius: 8px;
   border-top-left-radius: 8px;
   color: #000;
-  z-index: 1;
   border: 1px solid #bdc5d2;
   border-style: solid;
   max-width: 221.333px;
@@ -2297,7 +2298,7 @@ input::placeholder {
 }
 
 .eleventh-app-list img{
-  height: 25px;
+  height: 24px;
   width: 24px;
 }
 
@@ -2542,5 +2543,262 @@ footer{
 
   .ninth-scroll-main-content{
     padding-top: 16px;
+  }
+
+  .tenth-main-container{
+    padding-block: 56px;
+  }
+
+  .tenth-container{
+    padding-right: 72px;
+    padding-left: 64px;
+  }
+
+  .tenth-head h2{
+    margin-right: -7px;
+  }
+
+  .tenth-content-text{
+    padding-right: 24px;
+  }
+
+  .eleventh-main-container{
+    padding-inline: 68px;
+    padding-bottom: 28px;
+  }
+
+  .eleventh-azure-app{
+    margin-bottom: 2px;
+  }
+
+  .eleventh-azure-app span{
+    letter-spacing: -0.785px;
+  }
+
+  .eleventh-app-list{
+    margin-left: 5px
+  }
+
+  .footer-main-body{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 1px;
+  }
+
+  .footer-bottom-list{
+    margin-left: 6px;
+  }
+}
+
+@media screen and (min-width: 860px) {
+  .nav{
+    flex-direction: row;
+    gap: 12px;
+  }
+
+  .nav-main{
+    margin-bottom: 0;
+    height: 55px;
+    padding-inline: 24px;
+  }
+
+  .microsoft-logo{
+    left: 6px;
+    margin-inline: 0;
+    margin-bottom: 0;
+    margin-top: 3px;
+  }
+
+  .media-azure-head{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left: 145px;
+  }
+
+  .head-azure{
+    padding-top: 12px;
+  }
+
+  .azure-span{
+    padding: 16px 4px 16px 12px;
+    margin-left: 8px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+
+  .azure-span::before{
+    content: " ";
+    height: 24px;
+    top: 13px;
+    position: absolute;
+    margin-left: -21px;
+    border-left: 2px solid #000;
+  }
+
+  .media-azure-head ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+
+  .explore-head{
+    padding: 16px 26px 10px 13px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #262626;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 13px;
+  }
+
+  .head-top-text button{
+    padding-top: 16px;
+    padding-bottom: 10px;
+    padding-right: 37px;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #262626;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+  .top-solution button{
+    padding-top: 16px;
+    padding-bottom: 10px;
+    padding-right: 34px;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #262626;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+  .top-text button{
+    padding-top: 16px;
+    padding-bottom: 10px;
+    padding-right: 34px;
+    border: none;
+    background-color: white;
+    font-size: 13px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    color: #262626;
+    line-height: normal;
+    letter-spacing: normal;
+  }
+
+  .head-top-text button::after{
+    content: "";
+    font-family: mwfm;
+    position: absolute;
+    font-size: 8px;
+    font-weight: 700;
+    padding-top: 7px;
+    margin-left: 7px;
+  }
+
+  .top-solution button::after{
+    content: "";
+    font-family: mwfm;
+    position: absolute;
+    font-size: 8px;
+    font-weight: 700;
+    padding-top: 7px;
+    margin-left: 7px;
+  }
+
+  .top-text button::after{
+    content: "";
+    font-family: mwfm;
+    position: absolute;
+    font-size: 8px;
+    font-weight: 700;
+    padding-top: 7px;
+    margin-left: 7px;
+  }
+
+  .search-button{
+    position: absolute;
+    right: 0;
+  }
+
+  .search-button::after{
+    position: absolute;
+    right: 0;
+  }
+
+  .azure-b{
+    display: none !important;
+  }
+
+  .top-section{
+    padding-inline: 40px;
+    padding-bottom: 138px;
+  }
+
+  .contain-sec{
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+    gap: 16px;
+    align-items: center;
+    margin-top: 92px;
+  }
+
+  .cfir-text{
+    min-width: 366px;
+  }
+
+  .innovation-head{
+    margin-bottom: 8px;
+  }
+
+  .cfir-text h1{
+    font-size: 44px;
+    line-height: 56px;
+  }
+
+  .cfir-text p{
+    padding-right: 48px;
+    margin-top: 24px;
+  }
+
+  .cfir-text-bottom{
+    margin-top: 32px;
+  }
+
+  .cfir-start{
+    line-height: 20px;
+  }
+
+  .cfir-explore{
+    line-height: 20px;
+  }
+
+  .cfir-explore span{
+    line-height: 20px
+  }
+
+  .cfir-img{
+    padding: 24px;
+    height: fit-content;
+    backdrop-filter: blur(1.25rem);
+    margin-bottom: -8px;
+    border-radius: 16px;
+  }
+
+  .cfir-img img{
+    max-width: 100%;
+    border-radius: 16px;
   }
 }
