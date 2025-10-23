@@ -2904,4 +2904,54 @@ footer {
   .ai-ul{
     gap: 16px;
   }
-}
+
+  .third-container{
+    padding-inline: 56px;
+    padding-block: 96px;
+  }
+
+  .tri-mhead{
+    margin-bottom: 8px;
+  }
+
+  .tri-hcontent h2{
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .third-content{
+    flex-wrap: nowrap;
+    margin-top: 48px;
+    gap: 12px;
+  }
+
+  .third-con{
+    flex: 1;
+  }
+
+  .tri-sec{
+    border-radius: 24px;
+  }
+
+  .tsec-img img{
+    border-radius: 16px;
+  }
+
+  .tsec-content{
+    padding-inline: 24px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+
+  .tsec-mtext{
+    gap: 16px ;
+  }
+
+  .tsec-mtext span{
+    padding-right: 25px;
+  }
+
+  .tsec-bottom{
+    margin-top: 48px;
+  }
+} 
