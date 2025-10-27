@@ -648,21 +648,9 @@ input::placeholder {
 
 .third-con {
   display: flex;
-  flex-direction: column;
-  gap: 32px;
   align-items: normal;
   padding-inline: 4px;
-}
-
-.tri-con {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.tri-sec {
   position: relative;
-  display: flex;
   flex-direction: column;
   min-width: 1px;
   background-color: #fff;
@@ -808,21 +796,20 @@ input::placeholder {
   margin-inline: -4px;
 }
 
-.f-head {
-  padding-left: 4px;
-  padding-right: 4px;
-  flex-grow: 1;
-  max-width: 100%;
-  position: relative;
-  width: 100%;
-}
-
 .fohead {
   display: flex;
   flex-wrap: wrap;
   /* gap: 12px; */
   flex-direction: column;
   box-sizing: border-box;
+  padding-left: 4px;
+  padding-right: 4px;
+  flex-grow: 1;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+  margin-right: -4px;
+  margin-left: -4px;
 }
 
 .solutions {
@@ -841,13 +828,7 @@ input::placeholder {
   line-height: 40px;
   letter-spacing: -0.8px;
   font-weight: 500;
-}
-
-.fourth-body {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin-top: 32px;
+  margin-bottom: 16px;
 }
 
 .fourth-content {
@@ -858,6 +839,11 @@ input::placeholder {
   /* padding-left: 4px;
   padding-right: 4px; */
   width: 100%;
+  margin-top: 16px;
+}
+
+.fourth-content ul{
+  list-style: none;
 }
 
 .content-scroll {
@@ -879,8 +865,8 @@ input::placeholder {
   flex-wrap: wrap;
   position: relative;
   box-sizing: border-box;
-  width: 810px;
-  padding-left: 46px;
+  width: 899px;
+  padding-left: 44px;
 }
 
 .button-content {
@@ -888,7 +874,9 @@ input::placeholder {
   background-color: rgba(0, 85, 151, 0.1);
   color: #004275;
   line-height: 24px;
-  padding: 8px 16px 8px 16px;
+  padding-inline: 16px;
+  padding-top: 10px;
+  padding-bottom: 6px;
   margin-right: 8px;
   border-radius: 200px;
   border: none;
@@ -898,8 +886,10 @@ input::placeholder {
 .b-content {
   background-color: #005597;
   color: #fff;
-  line-height: 24px;
-  padding: 8px 16px 8px 16px;
+  line-height: 23px;
+  padding-inline: 16px;
+  padding-top: 9px;
+  padding-bottom: 7px;
   text-align: center;
   margin-right: 8px;
   border-radius: 200px;
@@ -937,6 +927,7 @@ input::placeholder {
   line-height: 24px;
   color: #004275;
   box-sizing: border-box;
+  margin-top: -2px;
 }
 
 .fourth-mbody {
@@ -944,44 +935,25 @@ input::placeholder {
   max-width: 100%;
   padding-right: 4px;
   padding-left: 4px;
-  position: relative;
   width: 100%;
   box-sizing: border-box;
-}
-
-.fm-body {
-  position: relative;
   margin-top: 32px;
   text-align: left;
 }
 
-.fourth-bcontent {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  width: 100%;
-}
-
-.fourth-first-sec {
-  display: flex;
-  flex-direction: column;
-  border-bottom: 1px solid #bdc5d2;
-  width: 100%;
-}
-
 .linux-azure {
   display: flex;
-  flex-direction: row-reverse;
-  justify-content: space-between;
+  flex-direction: row;
   width: 100%;
   gap: 8px;
-  padding-bottom: 24px;
+  margin-bottom: -4px;
   align-items: center;
   background-color: transparent;
   border: none;
+  padding-bottom: 28px;
 }
 
-.linux-azure::before {
+.linux-azure::after {
   font-family: mwff;
   content: "";
   margin-top: auto;
@@ -1004,9 +976,16 @@ input::placeholder {
 .fourth-sec-content {
   display: flex;
   flex-direction: column;
-  gap: 24px;
   padding-bottom: 24px;
+  border-bottom: 1px solid #bdc5d2;
   text-align: left;
+}
+
+.fourth-text{
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding-bottom: 26px;
 }
 
 .fourth-sec-content p {
@@ -1016,10 +995,7 @@ input::placeholder {
   font-weight: 400;
   letter-spacing: -0.48px;
   line-height: 24px;
-}
-
-.learn-text {
-  margin-bottom: 26px;
+  padding-bottom: 27px;
 }
 
 .learn-more {
@@ -1028,6 +1004,7 @@ input::placeholder {
   font-size: 14px;
   font-family: latest;
   text-decoration: underline;
+  text-underline-offset: 2px;
   line-height: 20px;
 }
 
@@ -1039,6 +1016,10 @@ input::placeholder {
   display: flex;
   max-width: 100%;
   box-sizing: border-box;
+}
+
+.fourth-img{
+  display: none;
 }
 
 .learn-img img {
@@ -1058,17 +1039,16 @@ input::placeholder {
 
 .ai-infrastructure {
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   gap: 8px;
   padding-block: 24px;
   align-items: center;
   border: none;
   width: 100%;
-  justify-content: space-between;
   background-color: transparent;
 }
 
-.ai-infrastructure::before {
+.ai-infrastructure::after {
   font-family: mwff;
   content: "";
   line-height: 25px;
@@ -1147,18 +1127,12 @@ input::placeholder {
   margin-inline: auto;
 }
 
-.fifth-head {
-  display: flex;
-  flex-wrap: wrap;
-  margin-right: -4px;
-  margin-left: -4px;
-}
 
 .fifth-main-body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
-  margin-top: 32px;
+  margin-top: 16px;
 }
 
 .fit-body {
@@ -2495,10 +2469,6 @@ footer {
     padding-inline: 64px;
   }
 
-  .fourth-sec-content {
-    gap: 27px;
-  }
-
   .infrastructure {
     padding-inline: 0px;
   }
@@ -2906,8 +2876,10 @@ footer {
   }
 
   .third-container{
-    padding-inline: 56px;
-    padding-block: 96px;
+    padding-left: 56px;
+    padding-right: 64px;
+    padding-top: 96px;
+    padding-bottom: 96px !important;
   }
 
   .tri-mhead{
@@ -2922,14 +2894,14 @@ footer {
   .third-content{
     flex-wrap: nowrap;
     margin-top: 48px;
-    gap: 12px;
+    gap: 16px;
+    align-items: stretch;
   }
 
   .third-con{
     flex: 1;
-  }
-
-  .tri-sec{
+    padding-right: 0px;
+    padding-left: 0px;
     border-radius: 24px;
   }
 
@@ -2938,8 +2910,9 @@ footer {
   }
 
   .tsec-content{
-    padding-inline: 24px;
     padding-top: 24px;
+    padding-left: 24px;
+    padding-right: 24px;
     padding-bottom: 24px;
   }
 
@@ -2948,10 +2921,130 @@ footer {
   }
 
   .tsec-mtext span{
-    padding-right: 25px;
+    padding-right: 26px;
   }
 
   .tsec-bottom{
     margin-top: 48px;
   }
+
+  .fourth-container{
+    padding-top: 96px;
+    padding-bottom: 96px;
+    padding-left: 56px;
+    padding-right: 60px;
+  }
+
+  .solutions{
+    margin-bottom: 8px;
+  }
+
+  .fohead h2{
+    font-size: 40px;
+    line-height: 48px;
+  }
+
+  .button-content{
+    padding-inline: 24px ;
+    padding-top: 10px ;
+    padding-bottom: 6px ;
+  }
+
+  .b-content{
+    padding-inline: 24px;
+    padding-top: 9px;
+    padding-bottom: 7px;
+  }
+
+  .fourth-mbody{
+    margin-top: 0px;
+  }
+
+  .fourth-line{
+    width: 3px;
+    height: 216px;
+    background-color: #004275;
+    border-radius: 4px;
+    position: absolute;
+  }
+
+  .fourth-sec-content{
+    padding-left: 51px;
+    border-bottom: none !important;
+    padding-bottom: 0px !important;
+  }
+
+  .fourth-sec-content p{
+    padding-bottom: 32px;
+  }
+
+  .fourth-text{
+    border-bottom: 1px solid #bdc5d2;
+    padding-bottom: 34px;
+  }
+
+  .scroll-content{
+    padding-left: 44px;
+  }
+
+  .fourth-content{
+    margin-top: 32px;
+    gap: 48px;
+  }
+
+  .fourth-main{
+    height: 848px;
+    max-height: 630px;
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    box-sizing: border-box;
+  }
+
+  .fourth-container ul{
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-basis: calc(33% - 1rem / 2);
+  }
+
+  .linux-azure{
+    padding-bottom: 36px;
+  }
+
+  .learn-img{
+    position: absolute;
+    justify-content: flex-end;
+    padding-right: 4px;
+    overflow: hidden;
+  }
+
+  .learn-img img{
+    width: 60%;
+    min-width: 444px;
+    border-radius: 24px;
+  }
+
+  .infrastructure{
+    padding-left: 51px;
+    border-bottom: none;
+  }
+
+  .ai-infrastructure{
+    border-bottom: 1px solid #bdc5d2;
+    padding-block: 32px;
+    gap: 0px;
+  }
+
+  .ai-infrastructure::after{
+    margin-top: 22px;
+  }
+
+  .fifth-container{
+    padding-block: 96px;
+  }
+
+  .fifth-contain{
+    padding-inline: 56px;
+  }
+
 } 
