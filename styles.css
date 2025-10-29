@@ -224,7 +224,7 @@
   background-color: #0078d4;
 }
 
-.cfir-mstart{
+.cfir-mstart {
   white-space: normal;
   border: 2px solid transparent;
   padding-inline: 12px;
@@ -236,9 +236,9 @@
   text-wrap: nowrap;
   transform: translateX(4px);
   margin-left: 4px;
-}      
+}
 
-.cfir-mstart span{
+.cfir-mstart span {
   font-family: latest;
   line-height: 22px;
   color: #fff;
@@ -365,7 +365,7 @@
   justify-content: space-between;
 }
 
-.featured-scroll{
+.featured-scroll {
   display: none;
 }
 
@@ -808,8 +808,6 @@ input::placeholder {
   max-width: 100%;
   position: relative;
   width: 100%;
-  margin-right: -4px;
-  margin-left: -4px;
 }
 
 .solutions {
@@ -842,7 +840,7 @@ input::placeholder {
   margin-top: 16px;
 }
 
-.fourth-content ul{
+.fourth-content ul {
   list-style: none;
 }
 
@@ -981,7 +979,7 @@ input::placeholder {
   text-align: left;
 }
 
-.fourth-text{
+.fourth-text {
   display: flex;
   flex-direction: column;
   text-align: left;
@@ -1018,7 +1016,7 @@ input::placeholder {
   box-sizing: border-box;
 }
 
-.fourth-img{
+.fourth-img {
   display: none;
 }
 
@@ -1419,7 +1417,7 @@ input::placeholder {
   flex-grow: 1;
   max-width: 100%;
   position: relative;
-  flex-direction: column;
+  flex-direction: column-reverse;
   gap: 12px;
   align-items: normal;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
@@ -2802,7 +2800,7 @@ footer {
     display: none;
   }
 
-  .featured-scroll{
+  .featured-scroll {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -2834,133 +2832,133 @@ footer {
     margin-right: 48px;
   }
 
-  .blue-line{
+  .blue-line {
     display: none;
   }
 
-  .ai-ban{
+  .ai-ban {
     padding-inline: 56px;
     padding-block: 32px;
   }
 
-  .ai-layout{
+  .ai-layout {
     flex-direction: row;
     gap: 16px;
   }
 
-  .ai-desc{
+  .ai-desc {
     align-items: flex-start;
     justify-content: center;
     flex: 1;
     display: flex;
   }
 
-  .ai-search{
+  .ai-search {
     flex: 1;
   }
 
-  .desc-sec{
+  .desc-sec {
     gap: 16px;
   }
 
-  .desc-top{
+  .desc-top {
     gap: 16px;
   }
 
-  .desc-p{
+  .desc-p {
     text-wrap: nowrap;
   }
 
-  .ai-ul{
+  .ai-ul {
     gap: 16px;
   }
 
-  .third-container{
+  .third-container {
     padding-left: 56px;
     padding-right: 64px;
     padding-top: 96px;
     padding-bottom: 96px !important;
   }
 
-  .tri-mhead{
+  .tri-mhead {
     margin-bottom: 8px;
   }
 
-  .tri-hcontent h2{
+  .tri-hcontent h2 {
     font-size: 40px;
     line-height: 48px;
   }
 
-  .third-content{
+  .third-content {
     flex-wrap: nowrap;
     margin-top: 48px;
     gap: 16px;
     align-items: stretch;
   }
 
-  .third-con{
+  .third-con {
     flex: 1;
     padding-right: 0px;
     padding-left: 0px;
     border-radius: 24px;
   }
 
-  .tsec-img img{
+  .tsec-img img {
     border-radius: 16px;
   }
 
-  .tsec-content{
+  .tsec-content {
     padding-top: 24px;
     padding-left: 24px;
     padding-right: 24px;
     padding-bottom: 24px;
   }
 
-  .tsec-mtext{
-    gap: 16px ;
+  .tsec-mtext {
+    gap: 16px;
   }
 
-  .tsec-mtext span{
+  .tsec-mtext span {
     padding-right: 26px;
   }
 
-  .tsec-bottom{
+  .tsec-bottom {
     margin-top: 48px;
   }
 
-  .fourth-container{
+  .fourth-container {
     padding-top: 96px;
     padding-bottom: 96px;
     padding-left: 56px;
     padding-right: 60px;
   }
 
-  .solutions{
+  .solutions {
     margin-bottom: 8px;
   }
 
-  .fohead h2{
+  .fohead h2 {
     font-size: 40px;
     line-height: 48px;
   }
 
-  .button-content{
-    padding-inline: 24px ;
-    padding-top: 10px ;
-    padding-bottom: 6px ;
+  .button-content {
+    padding-inline: 24px;
+    padding-top: 10px;
+    padding-bottom: 6px;
   }
 
-  .b-content{
+  .b-content {
     padding-inline: 24px;
     padding-top: 9px;
     padding-bottom: 7px;
   }
 
-  .fourth-mbody{
+  .fourth-mbody {
     margin-top: 0px;
   }
 
-  .fourth-line{
+  .fourth-line {
     width: 3px;
     height: 216px;
     background-color: #004275;
@@ -2968,31 +2966,31 @@ footer {
     position: absolute;
   }
 
-  .fourth-sec-content{
+  .fourth-sec-content {
     padding-left: 51px;
     border-bottom: none !important;
     padding-bottom: 0px !important;
   }
 
-  .fourth-sec-content p{
+  .fourth-sec-content p {
     padding-bottom: 32px;
   }
 
-  .fourth-text{
+  .fourth-text {
     border-bottom: 1px solid #bdc5d2;
     padding-bottom: 34px;
   }
 
-  .scroll-content{
+  .scroll-content {
     padding-left: 44px;
   }
 
-  .fourth-content{
+  .fourth-content {
     margin-top: 32px;
     gap: 48px;
   }
 
-  .fourth-main{
+  .fourth-main {
     height: 848px;
     max-height: 630px;
     display: flex;
@@ -3001,50 +2999,214 @@ footer {
     box-sizing: border-box;
   }
 
-  .fourth-container ul{
+  .fourth-container ul {
     overflow-y: auto;
     overflow-x: hidden;
     flex-basis: calc(33% - 1rem / 2);
   }
 
-  .linux-azure{
+  .linux-azure {
     padding-bottom: 36px;
   }
 
-  .learn-img{
+  .learn-img {
     position: absolute;
     justify-content: flex-end;
     padding-right: 4px;
     overflow: hidden;
   }
 
-  .learn-img img{
+  .learn-img img {
     width: 60%;
     min-width: 444px;
     border-radius: 24px;
   }
 
-  .infrastructure{
+  .infrastructure {
     padding-left: 51px;
     border-bottom: none;
   }
 
-  .ai-infrastructure{
+  .ai-infrastructure {
     border-bottom: 1px solid #bdc5d2;
     padding-block: 32px;
     gap: 0px;
   }
 
-  .ai-infrastructure::after{
+  .ai-infrastructure::after {
     margin-top: 22px;
   }
 
-  .fifth-container{
+  .fifth-container {
     padding-block: 96px;
   }
 
-  .fifth-contain{
+  .fifth-contain {
     padding-inline: 56px;
   }
 
-} 
+  .fohead {
+    padding-inline: 0px;
+  }
+
+  .fohead h2 {
+    margin-bottom: 0;
+  }
+
+  .fifth-main-body {
+    margin-top: 0;
+  }
+
+  .ft-body {
+    margin-top: 48px;
+  }
+
+  .fifth-flex {
+    gap: 0px;
+    padding-right: 8px;
+    margin-top: 48px;
+  }
+
+  .fifth-image-body{
+    aspect-ratio: 21/9;
+    border-radius: 24px;
+  }
+
+  .fifth-image-div{
+    flex-direction: column-reverse;
+    padding: 24px;
+  }
+
+  .no-content {
+    display: none;
+  }
+
+  .fifth-img-text{
+    gap: 16px;
+  }
+
+  .fifth-img-bot{
+    gap: 16px !important;
+  }
+
+  .fifth-button{
+    padding-inline: 16px;
+    text-wrap: nowrap;
+    width: 165.2px;
+  }
+
+  .fifth-contents {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 16px;
+    gap: 16px;
+    margin-bottom: 48px;
+  }
+
+  .fifth-content-main {
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .fcontent-head {
+    margin-bottom: 0;
+    gap: 16px;
+  }
+
+  .azure-head {
+    gap: 16px;
+    margin-bottom: auto;
+  }
+
+  .explore-product {
+    margin-top: 48px;
+  }
+
+  .sixth-main-container{
+    padding-block: 96px;
+  }
+
+  .sixth-body{
+    padding-left: 12px;
+    padding-right: 16px;
+  }
+
+  .sixth-contain {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 0px;
+    border-radius: 24px;
+    border-top-right-radius: 24px;
+  }
+
+  .sixth-head-img {
+    padding-bottom: 8px;
+    padding-left: 0px;
+    min-width: 361px;
+  }
+
+  .sixth-head-img img {
+    height: 100%;
+    border-radius: 16px;
+  }
+
+  .sixth-main-content {
+    padding-bottom: 92px;
+    padding-top: 128px;
+    padding-right: 56px;
+    padding-left: 16px;
+  }
+
+  .sixth-content{
+    gap: 16px;
+  }
+
+  .sixth-heading {
+    padding-right: 23px;
+  }
+
+  .sixth-body-text {
+    padding-right: 10px;
+  }
+
+  .sixth-bottom {
+    padding-bottom: 24px;
+    padding-left: 16px;
+    padding-right: 0px;
+  }
+
+  .cfir-start{
+    padding: 12px 16px 13px 16px;
+  }
+
+  .seventh-head{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     padding-top: 72px;
+     padding-inline: 0px;
+     margin-inline: auto;
+     width: calc(83.33333%);
+  }
+
+  .resource{
+    margin-bottom: 8px;
+  }
+
+  .transform{
+    line-height: 48px;
+    font-size: 40px;
+  }
+
+  .ss-text{
+    padding: 16px 24px 24px;
+  }
+
+  .seventh-scroll-text{
+    padding: 16px 24px 24px;
+  }
+
+  .seventh-scroll-section{
+    padding-inline: 0px;
+  }
+}
