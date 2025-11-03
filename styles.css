@@ -1591,7 +1591,7 @@ input::placeholder {
   box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px, rgba(0, 0, 0, 0.14) 0px 1.008px 2px 0px;
 }
 
-.ninth-bottom-image{
+.ninth-bottom-image {
   color: #000;
   border: 1px solid #bdc5d2;
   border-style: solid;
@@ -2147,6 +2147,10 @@ input::placeholder {
   font-size: 18px;
 }
 
+.ninth-ol {
+  display: none;
+}
+
 .tenth-main-container {
   padding-block: 32px;
   position: relative;
@@ -2594,14 +2598,59 @@ footer {
     margin-left: 5px
   }
 
+  footer {
+    padding-bottom: 54px;
+  }
+
   .footer-main-body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding-top: 1px;
   }
 
+  .footer-bottom {
+    padding-top: 31px;
+    /* width: calc(100% - 24px); */
+  }
+
+  .footer-lang {
+    padding-bottom: 2px;
+  }
+
+  .footer-bctext {
+    padding-bottom: 2px;
+  }
+
   .footer-bottom-list {
-    margin-left: 6px;
+    margin-top: 10px;
+    /* display: flex; */
+    /* justify-content: flex-end; */
+  }
+
+  .footer-ctext {
+    /* padding-right: 27px; */
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 7px;
+  }
+}
+
+@media screen and (min-width: 571px) {
+  .eleventh-main-container {
+    padding-bottom: 30px;
+  }
+
+  .eleventh-container {
+    flex-direction: row;
+  }
+
+  .eleventh-app-list {
+    margin-top: 12px;
+    margin-left: 12px;
+  }
+
+  .eleventh-app-list ul li:nth-child(2) {
+    margin-left: -1px;
   }
 }
 
@@ -2755,7 +2804,7 @@ footer {
 
   .top-section {
     padding-inline: 40px;
-    padding-bottom: 138px;
+    padding-bottom: 75px;
   }
 
   .contain-sec {
@@ -2763,7 +2812,7 @@ footer {
     flex-wrap: nowrap;
     gap: 16px;
     align-items: center;
-    margin-top: 92px;
+    margin-top: 77px;
   }
 
   .cfir-text {
@@ -2789,6 +2838,11 @@ footer {
   }
 
   .cfir-start {
+    line-height: 20px;
+    padding: 13px 12px 13px 12px;
+  }
+
+  .cfir-start span {
     line-height: 20px;
   }
 
@@ -2876,6 +2930,14 @@ footer {
 
   .ai-search {
     flex: 1;
+  }
+
+  .search-ai input {
+    padding-left: 16px;
+  }
+
+  .input-button {
+    padding-top: 15px;
   }
 
   .desc-sec {
@@ -3196,10 +3258,6 @@ footer {
     padding-right: 0px;
   }
 
-  .cfir-start {
-    padding: 12px 16px 13px 16px;
-  }
-
   .seventh-container {
     padding-left: 48px;
     padding-right: 56px;
@@ -3241,11 +3299,6 @@ footer {
     padding-inline: 64px;
   }
 
-  .seventh-scroll {
-    /* padding-left: 25px;
-    margin-right: 24px; */
-  }
-
   .seventh-scroll-text {
     padding: 16px 24px 24px;
   }
@@ -3272,7 +3325,7 @@ footer {
     padding: 24px;
     margin-inline: auto;
     margin-top: 32px;
-    max-width: 58.701%;
+    width: calc(100% - 110px);
     border-radius: 24px;
   }
 
@@ -3372,7 +3425,7 @@ footer {
     margin-bottom: 32px;
   }
 
-  .products{
+  .products {
     padding-bottom: 0px;
   }
 
@@ -3387,104 +3440,100 @@ footer {
     padding-bottom: 12px;
   }
 
-  .cfir-start span{
-    line-height: 24px;
-  }
-
-  .ninth-bottom-arrows{
+  .ninth-bottom-arrows {
     display: none;
   }
 
-  .ninth-ol{
+  .ninth-ol {
     list-style: none;
     display: flex;
     justify-content: center;
     margin-top: 48px;
   }
 
-  .ninth-ol li:first-child{
+  .ninth-ol li:first-child {
     border-top-left-radius: 24px;
     border-bottom-left-radius: 24px;
   }
 
-  .ninth-ol li:last-child{
+  .ninth-ol li:last-child {
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
   }
 
-  .ninth-ol div{
+  .ninth-ol div {
     padding-inline: 32px;
     background-color: #fefefe;
     padding-top: 25px;
     padding-bottom: 28px;
   }
 
-  .ninth-ol img{
-    aspect-ratio: 2.33333;     
+  .ninth-ol img {
+    aspect-ratio: 2.33333;
   }
 
-  .tenth-main-container{
+  .tenth-main-container {
     padding-block: 96px;
   }
 
-  .tenth-container{
+  .tenth-container {
     padding-left: 56px;
   }
 
-  .tenth-head h2{
+  .tenth-head h2 {
     line-height: 48px;
     font-size: 40px;
     margin-right: -20px;
   }
 
-  .tenth-main-content{
+  .tenth-main-content {
     flex-direction: row;
     flex-wrap: nowrap;
     gap: 16px;
     margin-top: 32px;
   }
 
-  .tenth-content{
+  .tenth-content {
     flex: 1;
     padding: 24px;
   }
 
-  .tenth-text-head{
+  .tenth-text-head {
     line-height: 28px;
     font-size: 22px;
     font-weight: 500;
   }
 
-  .tenth-content-text{
+  .tenth-content-text {
     gap: 16px;
     margin-bottom: auto;
   }
 
-  .tenth-button{
+  .tenth-button {
     margin-top: 48px;
   }
 
-  .eleventh-main-container{
+  .eleventh-main-container {
     padding-inline: 60px;
   }
 
-  .eleventh-container{
+  .eleventh-container {
     flex-direction: row;
   }
 
-  .eleventh-azure-app{
+  .eleventh-azure-app {
     padding-inline: 16px;
     margin-bottom: 4px;
     padding-top: 13px;
     padding-bottom: 11px;
   }
 
-  .eleventh-app-list{
+  .eleventh-app-list {
     margin-left: 12px;
     padding-top: 11px;
   }
 
-  .eleventh-app-list ul li:nth-child(2){
+  .eleventh-app-list ul li:nth-child(2) {
     margin-left: -1px;
   }
 
