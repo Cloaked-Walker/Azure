@@ -336,14 +336,10 @@
 
 .featured-main {
   align-items: center;
-  /* display: flex !important; */
-  /* height: 52px; */
-  /* flex-direction: column; */
   background-color: #fefefe;
   box-shadow: rgba(0, 0, 0, 0.12) 0px 0px 2px 0px,
     rgba(0, 0, 0, 0.14) 0px 2px 4px 0px;
   width: 100%;
-  /* margin-inline: auto; */
   flex-grow: 1;
   position: sticky;
   top: 0;
@@ -354,7 +350,6 @@
   margin-inline: 4px;
   margin-top: 6px;
   display: block;
-  /* width: 100% !important; */
 }
 
 .news {
@@ -2609,7 +2604,7 @@ footer {
   }
 
   .footer-bottom {
-    padding-top: 31px;
+    /* padding-top: 31px; */
     /* width: calc(100% - 24px); */
   }
 
