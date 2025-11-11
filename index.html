@@ -11,22 +11,31 @@
 <body>
     <div class="nav-main">
         <div class="nav">
+            <button class="search-button"></button>
             <div class="nav-top">
                 <span class="microsoft-logo"><img src="https://uhf.microsoft.com/images/microsoft/RE1Mu3b.png"
                         alt="microsoft logo" /></span>
                 <div class="media-azure-head">
                     <div class="head-azure"><span class="azure-span">Azure</span></div>
-                    <ul>
+                    <ul class="media-head-ul">
                         <li class="explore-head">Explore</li>
+                        <li class="more"><button>More</button></li>
                         <li class="head-top-text"><button>Products</button></li>
-                        <li class="top-text"><button>Solutions</button></li>
+                        <li class="solution-text"><button>Solutions</button></li>
                         <li class="top-text"><button>Pricing</button></li>
                         <li class="top-text"><button>Partners</button></li>
                         <li class="top-text"><button>Resources</button></li>
                     </ul>
                 </div>
             </div>
-            <button class="search-button"></button>
+            <div class="head-search-section">
+                <button class="head-search"></button>
+                <ul>
+                    <li class="search-text"><button>Pricing</button></li>
+                    <li class="search-text"><button>Partners</button></li>
+                    <li class="search-text"><button>Resources</button></li>
+                </ul>
+            </div>
         </div>
         <div class="azure-b"><button class="azure-button">Azure</button>
         </div>
@@ -42,10 +51,10 @@
                 <div class="cfir-text">
                     <div class="innovation-head">AZURE. LIMITLESS INNOVATION.</div>
                     <h1>Trust your tools. Transform your future.</h1>
-                    
-                        <p> With built-in security and governance, Azure helps you build AI-powered solutions that
-                            scale and inspire. Pay as you go or try Azure free for up to 30 days. </p>
-                    
+
+                    <p> With built-in security and governance, Azure helps you build AI-powered solutions that
+                        scale and inspire. Pay as you go or try Azure free for up to 30 days. </p>
+
                     <div class="cfir-text-bottom">
                         <div class="cfir-button">
                             <button class="cfir-start"><span>Get started with Azure</span></button>
@@ -284,12 +293,13 @@
                                                 class="button-text">Featured</span></button>
                                         <button class="button-content"><span class="button-text">AI + machine
                                                 learning</span></button>
+                                        <button class="button-content"><span class="button-text">App
+                                                development</span></button>
                                         <button class="button-content"><span class="button-text">Compute</span></button>
-                                        <button class="button-content"><span
-                                                class="button-text">Containers</span></button>
+                                        <button class="button-content"><span class="button-text">Database +
+                                                Analytics</span></button>
                                         <button class="button-content"><span class="button-text">Hybrid +
                                                 multicloud</span></button>
-                                        <button class="button-content"><span class="button-text">IoT</span></button>
                                     </div>
                                 </div>
                                 <div class="scroll-arrow"></div>
@@ -772,8 +782,7 @@
                             <span class="tenth-text-body"> Pay as you go or try Azure for free for up to 30 days.</span>
                         </div>
                         <div class="tenth-button"><button class="fourth-blue"></button><span class="view-all">Get
-                                started
-                                with Azure</span></div>
+                                started with Azure</span></div>
                     </div>
                     <div class="tenth-content">
                         <div class="tenth-content-text">
@@ -892,25 +901,27 @@
             </div>
         </div>
         <div class="footer-bottom">
-            <div class="footer-lang"><span class="footer-btext">English (United States)</span></div>
-            <div class="footer-privacy">
-                <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve" height="16"
-                    width="43">
-                    <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
-                        style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
-                    <path
-                        d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
-                        style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
-                    <path
-                        d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
-                        style="fill:#fff"></path>
-                    <path
-                        d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
-                        style="fill:#06f"></path>
-                </svg>
-                <span class="footer-btext">Your Privacy Choices</span>
+            <div class="footer-last-section">
+                <div class="footer-lang"><span class="footer-btext">English (United States)</span></div>
+                <div class="footer-privacy">
+                    <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 14" xml:space="preserve"
+                        height="16" width="43">
+                        <path d="M7.4 12.8h6.8l3.1-11.6H7.4C4.2 1.2 1.6 3.8 1.6 7s2.6 5.8 5.8 5.8z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;fill:#fff"></path>
+                        <path
+                            d="M22.6 0H7.4c-3.9 0-7 3.1-7 7s3.1 7 7 7h15.2c3.9 0 7-3.1 7-7s-3.2-7-7-7zm-21 7c0-3.2 2.6-5.8 5.8-5.8h9.9l-3.1 11.6H7.4c-3.2 0-5.8-2.6-5.8-5.8z"
+                            style="fill-rule:evenodd;clip-rule:evenodd;fill:#06f"></path>
+                        <path
+                            d="M24.6 4c.2.2.2.6 0 .8L22.5 7l2.2 2.2c.2.2.2.6 0 .8-.2.2-.6.2-.8 0l-2.2-2.2-2.2 2.2c-.2.2-.6.2-.8 0-.2-.2-.2-.6 0-.8L20.8 7l-2.2-2.2c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0l2.2 2.2L23.8 4c.2-.2.6-.2.8 0z"
+                            style="fill:#fff"></path>
+                        <path
+                            d="M12.7 4.1c.2.2.3.6.1.8L8.6 9.8c-.1.1-.2.2-.3.2-.2.1-.5.1-.7-.1L5.4 7.7c-.2-.2-.2-.6 0-.8.2-.2.6-.2.8 0L8 8.6l3.8-4.5c.2-.2.6-.2.9 0z"
+                            style="fill:#06f"></path>
+                    </svg>
+                    <span class="footer-btext">Your Privacy Choices</span>
+                </div>
+                <span class="footer-bctext">Consumer Health Privacy</span>
             </div>
-            <span class="footer-bctext">Consumer Health Privacy</span>
             <ul class="footer-bottom-list">
                 <li class="footer-ctext">Sitemap</li>
                 <li class="footer-ctext">Contact Microsoft</li>
@@ -922,7 +933,6 @@
                 <li class="footer-ctext">About our ads</li>
                 <li class="footer-ctext">© Microsoft 2025</li>
             </ul>
-        </div>
     </footer>
 </body>
 

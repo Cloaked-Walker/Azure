@@ -35,6 +35,8 @@
   position: relative;
   padding: 2px 0;
   display: flex;
+  height: 53px;
+  flex-direction: row;
 }
 
 .microsoft-logo {
@@ -44,6 +46,7 @@
   position: absolute;
   left: calc(50% - 60px);
   height: auto;
+  justify-self: center;
 }
 
 .microsoft-logo img {
@@ -55,7 +58,6 @@
 }
 
 .search-button {
-  left: 1px;
   padding: 16px 8px 8px 0px;
   margin-left: 2px;
   height: 32px;
@@ -64,6 +66,7 @@
   white-space: nowrap;
   line-height: 18px;
   border: none;
+  position: relative;
 }
 
 .search-button::after {
@@ -75,7 +78,14 @@
   display: inline-block;
   font-size: 16px;
   margin-left: 7px;
-  position: relative;
+}
+
+.head-search {
+  display: none;
+}
+
+.more {
+  display: none;
 }
 
 .azure-b {
@@ -125,7 +135,6 @@
 .banner {
   overflow: hidden;
   height: 100%;
-  position: absolute;
   background-color: #f4fafd;
   left: 0;
   right: 0;
@@ -153,10 +162,10 @@
   position: relative;
   width: 100%;
   padding-inline: 4px;
-  padding-top: 56px;
+  /* padding-top: 56px; */
   column-gap: 12px;
   row-gap: 8px;
-  flex-direction: column-reverse;
+  flex-direction: column;
   text-align: left;
 }
 
@@ -174,7 +183,7 @@
   letter-spacing: 0.96px;
   line-height: 16px;
   font-size: 12px;
-  margin-top: 4px;
+  margin-top: -4px;
 }
 
 .cfir-text h1 {
@@ -222,7 +231,7 @@
   white-space: normal;
   border: 2px solid transparent;
   padding-inline: 12px;
-  padding-bottom: 3px;
+  padding-bottom: 2px;
   border-radius: 8px;
   display: inline-block;
   height: 36px;
@@ -850,10 +859,10 @@ input::placeholder {
 .scroll-content {
   justify-content: start;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   position: relative;
   box-sizing: border-box;
-  width: 899px;
+  width: 1029px;
   padding-left: 44px;
 }
 
@@ -897,7 +906,7 @@ input::placeholder {
   align-items: center;
   justify-content: center;
   position: absolute;
-  right: 0;
+  right: 4px;
   top: 0;
   border: 2px solid #004275;
   border-radius: 200px;
@@ -961,7 +970,7 @@ input::placeholder {
   font-weight: 600;
 }
 
-.learn-more{
+.learn-more {
   font-size: 14px;
   font-family: "Segoe UI Variable Text", "Segoe UI", segoeui, "Helvetica Neue", helvetica, arial, sans-serif;
   font-weight: 600;
@@ -995,16 +1004,6 @@ input::placeholder {
   letter-spacing: -0.48px;
   line-height: 24px;
   padding-bottom: 27px;
-}
-
-.rnrn-more {
-  color: #004275;
-  font-weight: 600;
-  font-size: 14px;
-  font-family: latest;
-  text-decoration: underline;
-  text-underline-offset: 2px;
-  line-height: 20px;
 }
 
 .learn-img {
@@ -2471,6 +2470,14 @@ footer {
   width: 43px;
 }
 
+.footer-last-section {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  max-width: calc(1600px + 10%);
+}
+
 .footer-bottom-list {
   width: 100%;
   text-align: left;
@@ -2483,8 +2490,9 @@ footer {
 /* Media-Queries */
 
 @media screen and (min-width: 540px) {
-  .top-section {
-    padding-inline: 48px;
+
+  .container-first {
+    padding-inline: 64px;
   }
 
   .cfir-text p {
@@ -2717,6 +2725,7 @@ footer {
   .nav {
     flex-direction: row;
     gap: 12px;
+    justify-content: space-between;
   }
 
   .nav-main {
@@ -2726,99 +2735,92 @@ footer {
   }
 
   .microsoft-logo {
-    left: 6px;
+    left: auto;
     margin-inline: 0;
     margin-bottom: 0;
     margin-top: 3px;
+    position: relative;
+    padding-right: 19px;
+    padding-left: 10px;
+  }
+
+  .nav-top {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .search-button {
+    display: none;
   }
 
   .media-azure-head {
     display: flex;
-    flex-direction: row;
     position: relative;
-    left: 145px;
+  }
+
+  .media-head-ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
   }
 
   .head-azure {
+    padding-left: 13px;
+    padding-right: 10px;
     padding-top: 12px;
+    padding-bottom: 16px;
+    margin-left: 18px;
   }
 
   .azure-span {
-    padding: 16px 4px 16px 12px;
-    margin-left: 8px;
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 18px;
     font-weight: 600;
     letter-spacing: normal;
-    line-height: normal;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: #262626;
+    margin-left: -3px;
+    line-height: 24px;
   }
 
   .azure-span::before {
     content: " ";
-    height: 24px;
-    top: 13px;
     position: absolute;
-    margin-left: -21px;
+    top: 13px;
+    left: 0;
+    height: 24px;
     border-left: 2px solid #000;
-  }
-
-  .media-azure-head ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    margin-left: 7px;
   }
 
   .explore-head {
-    padding: 16px 26px 10px 13px;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
     font-weight: 400;
-    color: #262626;
+    color: #000;
     line-height: normal;
     letter-spacing: normal;
-    font-size: 13px;
+    padding-left: 7px;
+    padding-bottom: 4px;
+    padding-right: 13.5px;
+  }
+
+  .head-top-text {
+    position: relative;
   }
 
   .head-top-text button {
-    padding-top: 16px;
-    padding-bottom: 10px;
-    padding-right: 37px;
-    border: none;
-    background-color: white;
-    font-size: 13px;
     font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
     font-weight: 400;
-    color: #262626;
+    color: #000;
     line-height: normal;
     letter-spacing: normal;
-  }
-
-  .top-solution button {
-    padding-top: 16px;
-    padding-bottom: 10px;
-    padding-right: 34px;
     border: none;
-    background-color: white;
-    font-size: 13px;
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    color: #262626;
-    line-height: normal;
-    letter-spacing: normal;
-  }
-
-  .top-text button {
-    padding-top: 16px;
-    padding-bottom: 10px;
-    padding-right: 38px;
-    border: none;
-    background-color: white;
-    font-size: 13px;
-    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-weight: 400;
-    color: #262626;
-    line-height: normal;
-    letter-spacing: normal;
+    background-color: transparent;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 30px;
   }
 
   .head-top-text button::after {
@@ -2826,19 +2828,55 @@ footer {
     font-family: mwfm;
     position: absolute;
     font-size: 8px;
+    top: 7px;
+    right: 15px;
     font-weight: 700;
-    padding-top: 7px;
-    margin-left: 7px;
   }
 
-  .top-solution button::after {
+  .top-text {
+    position: relative;
+  }
+
+  .solution-text {
+    position: relative;
+  }
+
+  .solution-text button {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+    line-height: normal;
+    letter-spacing: normal;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 4px;
+    padding-left: 7.5px;
+    padding-right: 30px;
+  }
+
+  .solution-text button::after {
     content: "";
     font-family: mwfm;
     position: absolute;
     font-size: 8px;
+    top: 7px;
+    right: 15px;
     font-weight: 700;
-    padding-top: 7px;
-    margin-left: 7px;
+  }
+
+  .top-text button {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+    line-height: normal;
+    letter-spacing: normal;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 4px;
+    padding-left: 4px;
+    padding-right: 30px;
   }
 
   .top-text button::after {
@@ -2846,15 +2884,37 @@ footer {
     font-family: mwfm;
     position: absolute;
     font-size: 8px;
+    top: 7px;
+    right: 15px;
     font-weight: 700;
-    padding-top: 7px;
+  }
+
+  .head-search {
+    padding: 10px 12px 8px 0px;
+    margin-left: 2px;
+    height: auto;
+    background: transparent;
+    margin-right: 6px;
+    white-space: nowrap;
+    line-height: 18px;
+    border: none;
+    position: relative;
+    display: block;
+  }
+
+  .head-search::after {
+    white-space: nowrap;
+    line-height: 18px;
+    font-family: mwfm;
+    content: "";
+    border: none;
+    display: inline-block;
+    font-size: 16px;
     margin-left: 7px;
   }
 
-  .search-button::after {
+  .banner {
     position: absolute;
-    right: 18px;
-    top: 19px;
   }
 
   .azure-b {
@@ -2862,8 +2922,11 @@ footer {
   }
 
   .top-section {
-    padding-inline: 40px;
     padding-bottom: 75px;
+  }
+
+  .container-first {
+    padding-inline: 56px;
   }
 
   .contain-row {
@@ -2871,15 +2934,14 @@ footer {
     grid-template-columns: repeat(2, 1fr);
     gap: 16px;
     align-items: center;
-    padding-top: 77px;
+    padding-top: 85px;
   }
 
-  .cfir-img{
+  .cfir-img {
     align-self: center;
     padding: 24px;
     height: fit-content;
     backdrop-filter: blur(1.25rem);
-    margin-bottom: -8px;
     border-radius: 16px;
   }
 
@@ -3192,7 +3254,8 @@ footer {
   }
 
   .fohead {
-    padding-inline: 4px;
+    padding-right: 4px;
+    padding-left: 0px;
   }
 
   .fohead h2 {
@@ -3289,6 +3352,7 @@ footer {
     padding-bottom: 8px;
     padding-left: 0px;
     min-width: 361px;
+    border-radius: 32px;
   }
 
   .sixth-head-img img {
@@ -3529,6 +3593,7 @@ footer {
     background-color: #fefefe;
     padding-top: 25px;
     padding-bottom: 28px;
+    min-height: 115.84px;
   }
 
   .ninth-ol img {
@@ -3601,5 +3666,145 @@ footer {
 
   .eleventh-app-list ul li:nth-child(2) {
     margin-left: -1px;
-  }            
+  }
+
+  .footer-lang {
+    padding-bottom: 3px;
+  }
+}
+
+@media screen and (min-width: 1084px) {
+  .nav-main {
+    padding-inline: 54.1875px;
+  }
+
+  .more {
+    display: block;
+    position: relative;
+  }
+
+  .more button {
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+    line-height: normal;
+    letter-spacing: normal;
+    border: none;
+    background-color: transparent;
+    padding-bottom: 4px;
+    padding-left: 12px;
+    padding-right: 30px;
+  }
+
+  .more button::after {
+    content: "";
+    font-family: mwfm;
+    position: absolute;
+    font-size: 8px;
+    top: 7px;
+    right: 15px;
+    font-weight: 700;
+  }
+
+  .solution-text{
+    display: none;
+  }
+
+  .head-top-text {
+    display: none;
+  }
+
+  .top-text {
+    display: none;
+  }
+
+  .head-search{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .head-search-section{
+    display: block;
+  }
+
+  .head-search-section{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .search-text button{
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #000;
+    line-height: normal;
+    letter-spacing: normal;
+    border: none;
+    background-color: transparent;
+  }
+
+  .tenth-container {
+    padding-right: 68px;
+  }
+
+  .view-all {
+    padding-bottom: 0px;
+  }
+
+  .tenth-content {
+    border-radius: 24px;
+  }
+
+  .azure-img {
+    padding-top: 1px;
+  }
+
+  .eleventh-azure-app span {
+    height: 26px;
+  }
+
+  .footer-main-body {
+    grid-template-columns: repeat(6, 1fr);
+    padding-inline: 54.1875px;
+  }
+
+  .footer-main-body div:nth-child(1) {
+    padding-left: 0px;
+  }
+
+  .footer-main-body div:nth-child(4) {
+    padding-left: 0px;
+  }
+
+  .footer-bottom {
+    padding-inline: 54.1875px;
+    padding-top: 33px;
+  }
+
+  .footer-last-section {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 3px;
+  }
+
+  .footer-lang {
+    padding-bottom: 0px;
+    margin-top: -3px;
+  }
+
+  .footer-privacy {
+    margin-block: 0px;
+    padding-top: 0px;
+  }
+
+  .footer-bctext {
+    padding-block: 0px;
+  }
+
+  .footer-bottom-list {
+    margin-top: 2px;
+    margin-bottom: 5px;
+  }
 }
